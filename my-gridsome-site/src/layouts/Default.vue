@@ -1,18 +1,3 @@
-
-<script>
-const data = fetch("http://localhost:8055/items/articles")
-  .then((response) => response.json())
-  .then((data) => {
-    console.log(data);
-  })
-  .catch((error) => {
-    console.error(error);
-  });
-
-console.log(data);
-</script>
-
-
 <template>
   <div class="layout">
     <header class="header">
@@ -24,7 +9,7 @@ console.log(data);
         <g-link class="nav__link" to="/about/">About</g-link>
       </nav>
     </header>
-    <slot />
+    <slot/>
   </div>
 </template>
 
@@ -38,10 +23,9 @@ query {
 
 <style>
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  margin:0;
+  padding:0;
   line-height: 1.5;
 }
 

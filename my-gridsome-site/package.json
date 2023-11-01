@@ -1,5 +1,5 @@
 {
-  "name": "ultitv-front",
+  "name": "my-gridsome-site",
   "private": true,
   "scripts": {
     "build": "gridsome build",
@@ -7,7 +7,6 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@directus/sdk": "^12.0.1",
     "gridsome": "^0.7.0"
   }
 }
